@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+
+# Model checkpoints and outputs
+*.pkl
+*.npy
+*.pt
+*.pth
+checkpoint/
+outputs/
+
+# environment files
+venv/
+.venv/
+env/
+
+# ide files
+.vscode/
+.idea/
+
+
+# ignore folder with audio files, but keep the folders in the github
+# MUST BE CONFIGURED FOR OTHER DATASETS AUDIO FILES TOO 
+NOTE/
+.idea
+.DS_Store
+data/processed/AudioCREMAD/
+!data/processed/AudioCREMAD/.gitkeep
+
+data/raw/CREMADAudioWAV/
+!data/raw/CREMADAudioWAV/.gitkeep
+# for future purpose
+# *.wav
+# *.mp3
+# *.npy          
+# *.pkl        
